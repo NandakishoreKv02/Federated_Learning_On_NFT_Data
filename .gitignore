@@ -1,0 +1,85 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hardhat artifacts and cache
+contracts/artifacts/
+contracts/cache/
+contracts/build-info/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+*.log
+*.tmp
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Backend build
+backend/node_modules/
+backend/dist/
+
+# Ignore test coverage
+coverage/
+
+# Ignore fl_server and fl_clients Python cache
+fl_server/__pycache__/
+fl_clients/__pycache__/
+
+# Ignore data
+backend/data/
+
+# Ignore scripts output
+scripts/*.log
+
+# Ignore public build
+frontend/public/
+
+# Ignore cache
+.cache/
+
+# Ignore local history
+.history/
+
+# Ignore npm package lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore hardhat ignition
+contracts/ignition/
+
+# Ignore solidity files cache
+contracts/cache/solidity-files-cache.json
+
+# Ignore console history
+contracts/cache/console-history.txt
